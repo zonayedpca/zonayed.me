@@ -18,7 +18,6 @@ import {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Menu />
     <Intro />
     <About />
     <Skill />

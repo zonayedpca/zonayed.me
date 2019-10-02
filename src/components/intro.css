@@ -1,0 +1,47 @@
+.intro-area {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.intro {
+  padding-left: 100px;
+}
+
+.intro p {
+  font-size: 22px;
+  color: #00cf5d;
+}
+
+.intro h1 {
+  font-size: 78px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.intro ul {
+  display: flex;
+
+  margin-bottom: 25px;
+}
+
+.intro ul li {
+  position: relative;
+  margin-right: 25px;
+}
+
+.intro ul li:before {
+  position: absolute;
+  content: "";
+  left: -15px;
+  top: 10px;
+  background-color: #00cf5d;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.intro ul li:first-child:after {
+  display: none;
+}

@@ -1,35 +1,31 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { Logo } from "./common"
+import { Logo, Container } from "./common"
+
+import "./header.css"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          <Logo />
-        </Link>
-      </h1>
-    </div>
-    <div>MenuItem</div>
+  <header>
+    <Container>
+      <div className="header">
+        <div className="logo">
+          <h1>
+            <Link to="/">
+              <Logo />
+            </Link>
+          </h1>
+        </div>
+        <ul className="menubar">
+          <li>About</li>
+          <li>Skill</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+          <li>Blog</li>
+          <li>Resume</li>
+        </ul>
+      </div>
+    </Container>
   </header>
 )
 

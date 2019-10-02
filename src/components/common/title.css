@@ -1,0 +1,47 @@
+.title {
+  position: absolute;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title.left {
+  left: 35px;
+}
+
+.title.right {
+  right: 35px;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  margin: 15px 0;
+  background: #fff;
+  z-index: -1;
+}
+
+.title ul {
+  padding: 5px;
+  background-color: #111a28;
+}
+
+.title p {
+  padding: 5px 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #1d293a;
+  transform-origin: 50%;
+}
+
+.title.left p {
+  transform: rotate(-90deg);
+}
+
+.title.title.right p {
+  transform: rotate(90deg);
+}

@@ -1,6 +1,5 @@
 .intro-area {
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
 }
@@ -20,6 +19,10 @@
   margin-bottom: 25px;
 }
 
+.intro h3 {
+  color: #00cf5d;
+}
+
 .intro ul {
   display: flex;
 
@@ -29,6 +32,7 @@
 .intro ul li {
   position: relative;
   margin-right: 25px;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .intro ul li:before {
@@ -42,6 +46,6 @@
   border-radius: 10px;
 }
 
-.intro ul li:first-child:after {
+.intro ul li:first-child:before {
   display: none;
 }

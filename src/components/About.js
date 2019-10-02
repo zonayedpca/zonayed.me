@@ -1,16 +1,15 @@
 import React from "react"
-import { Container } from "./common"
+import { Container, Title } from "./common"
+
+import "./about.css"
 
 const About = () => {
   return (
     <div className="about-area">
       <Container>
-        <div className="title right social-follow">
-          <p>Avout Me</p>
-        </div>
+        <Title side="right" title="About Me" />
         <div className="about">
           <div className="about-details">
-            <h2>About Me</h2>
             <p>
               I am Zonayed Ahmed, from a small, beautiful country, Bangladesh. I
               love to work with new things. Also love to add new skills in my

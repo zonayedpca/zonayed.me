@@ -1,9 +1,16 @@
 .title {
   position: absolute;
-  height: 360px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.title.left {
+  justify-content: flex-end;
+}
+
+.title.left.social {
   justify-content: space-between;
 }
 
@@ -21,7 +28,7 @@
   height: 100%;
   width: 2px;
   margin: 15px 0;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.85);
   z-index: -1;
 }
 
@@ -36,6 +43,8 @@
   text-transform: uppercase;
   background-color: #1d293a;
   transform-origin: 50%;
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 4px;
 }
 
 .title.left p {

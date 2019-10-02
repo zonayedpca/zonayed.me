@@ -1,0 +1,19 @@
+.about-area {
+  position: relative;
+}
+
+.about {
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.about > * {
+  flex: 1;
+}
+
+.about-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

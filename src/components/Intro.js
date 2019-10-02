@@ -6,7 +6,7 @@ import "./intro.css"
 const Intro = () => {
   return (
     <div className="intro-area">
-      <Title />
+      <Title title="Follow Me" social />
       <Container>
         {/* <IntroBG /> */}
         <div className="intro">

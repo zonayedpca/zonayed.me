@@ -7,7 +7,7 @@ import "./header.css"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <Container>
+    <Container padding="25px 0">
       <div className="header">
         <div className="logo">
           <h1>

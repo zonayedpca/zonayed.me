@@ -1,9 +1,10 @@
 import React from "react"
-import { Container } from "./common"
+
+import { Container } from "./container"
 
 import "./footer.css"
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="footer-area">
       <Container padding="25px 0">
@@ -38,5 +39,3 @@ const Footer = () => {
     </footer>
   )
 }
-
-export { Footer }

@@ -1,4 +1,5 @@
 import React from "react"
+
 import { IntroBG, Container, Title } from "./common"
 
 import "./intro.css"

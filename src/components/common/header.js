@@ -1,7 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { Logo, Container } from "./common"
+
+import { Container } from "./container"
+import { Logo } from "./logo"
 
 import "./header.css"
 
@@ -37,4 +39,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export { Header }

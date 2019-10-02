@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { Logo } from "./common"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -24,10 +25,11 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <Logo />
         </Link>
       </h1>
     </div>
+    <div>MenuItem</div>
   </header>
 )
 

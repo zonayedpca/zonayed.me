@@ -25,7 +25,6 @@ const IndexPage = () => (
     <LoveToDo />
     <Portfolio />
     <Contact />
-    <Footer />
   </Layout>
 )
 

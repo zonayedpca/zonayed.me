@@ -1,7 +1,71 @@
 import React from "react"
 
 const Skill = () => {
-  return <div className="skill-area">Skill Area</div>
+  return (
+    <div className="skill-area">
+      <div className="title left">
+        <p>My Skills</p>
+      </div>
+      <div className="skills">
+        <ul className="skill-nav">
+          <li>One</li>
+          <li>Two</li>
+          <li>Three</li>
+        </ul>
+        <div className="skill">
+          <div className="card">
+            <h4>Programming</h4>
+            <p>94%</p>
+            <div className="progress-ar" />
+          </div>
+          <div className="card">
+            <h4>Programming</h4>
+            <p>94%</p>
+            <div className="progress-ar" />
+          </div>
+          <div className="card">
+            <h4>Programming</h4>
+            <p>94%</p>
+            <div className="progress-ar" />
+          </div>
+        </div>
+        <div className="skill">
+          <div className="card">
+            <h4>Programming</h4>
+            <p>94%</p>
+            <div className="progress-ar" />
+          </div>
+          <div className="card">
+            <h4>Programming</h4>
+            <p>94%</p>
+            <div className="progress-ar" />
+          </div>
+          <div className="card">
+            <h4>Programming</h4>
+            <p>94%</p>
+            <div className="progress-ar" />
+          </div>
+        </div>
+        <div className="skill">
+          <div className="card">
+            <h4>Programming</h4>
+            <p>94%</p>
+            <div className="progress-ar" />
+          </div>
+          <div className="card">
+            <h4>Programming</h4>
+            <p>94%</p>
+            <div className="progress-ar" />
+          </div>
+          <div className="card">
+            <h4>Programming</h4>
+            <p>94%</p>
+            <div className="progress-ar" />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }
 
 export { Skill }

@@ -2,9 +2,12 @@ import React from "react"
 
 import "./title.css"
 
-export const Title = ({ title, social, side }) => {
+export const Title = ({ title, social, side, height }) => {
   return (
-    <div className={`title ${side} ${social ? "social" : ""}`}>
+    <div
+      style={{ height }}
+      className={`title ${side} ${social ? "social" : ""}`}
+    >
       {social && (
         <ul>
           <li>Fa</li>
@@ -20,4 +23,5 @@ export const Title = ({ title, social, side }) => {
 
 Title.defaultProps = {
   side: "left",
+  height: "160px",
 }

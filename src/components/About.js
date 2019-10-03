@@ -1,6 +1,8 @@
 import React from "react"
 
-import { Container, Title } from "./common"
+import { Container, Title, Button } from "./common"
+
+import profile from "../assets/image/profile.jpg"
 
 import "./about.css"
 
@@ -20,16 +22,14 @@ const About = () => {
               know more about me
             </p>
             <div className="about-action">
-              <a href="#" className="btn">
-                Download CV
-              </a>
-              <a href="#" className="btn">
-                My Skills
-              </a>
+              <Button title="Download CV" />
+              <Button ml="15px" title="My Skills" />
             </div>
           </div>
           <div className="about-image">
-            <div className="image">A Photo of mine smiling...</div>
+            <div className="image">
+              <img src={profile} />
+            </div>
           </div>
         </div>
       </Container>

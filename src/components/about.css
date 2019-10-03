@@ -1,5 +1,6 @@
 .about-area {
   position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .about {
@@ -12,8 +13,21 @@
   flex: 1;
 }
 
+.about-details p {
+  line-height: 2;
+}
+
+.about-action {
+  margin-top: 25px;
+}
+
 .about-image {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about-image img {
+  width: 240px;
+  border-radius: 10px;
 }

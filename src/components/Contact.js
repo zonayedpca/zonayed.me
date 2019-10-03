@@ -2,6 +2,8 @@ import React from "react"
 
 import { Container, Title } from "./common"
 
+import "./contact.css"
+
 const Contact = () => {
   return (
     <div className="contact-area">

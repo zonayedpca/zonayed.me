@@ -1,15 +1,14 @@
 import React from "react"
 
-import { IntroBG, Container, Title } from "./common"
+import { IntroBG, Container, Title, Button } from "./common"
 
 import "./intro.css"
 
 const Intro = () => {
   return (
     <div className="intro-area">
-      <Title title="Follow Me" social />
+      <Title title="Follow Me" social height="320px" />
       <Container>
-        {/* <IntroBG /> */}
         <div className="intro">
           <div className="intro-text">
             <p>Hello! I am</p>
@@ -21,16 +20,15 @@ const Intro = () => {
               <li>Biker</li>
             </ul>
             <div className="action">
-              <a className="btn" href="#">
-                Download CV
-              </a>
-              <a className="btn" href="#">
-                About Me
-              </a>
+              <Button title="Download CV" />
+              <Button ml="15px" title="About Me" />
             </div>
           </div>
         </div>
       </Container>
+      {/* <div className="bg">
+        <IntroBG />
+      </div> */}
     </div>
   )
 }

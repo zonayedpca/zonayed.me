@@ -1,6 +1,5 @@
 .title {
   position: absolute;
-  height: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;

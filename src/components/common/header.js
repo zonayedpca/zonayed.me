@@ -19,12 +19,24 @@ const Header = ({ siteTitle }) => (
           </h1>
         </div>
         <ul className="menubar">
-          <li>About</li>
-          <li>Skill</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-          <li>Blog</li>
-          <li>Resume</li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Skill</a>
+          </li>
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Resume</a>
+          </li>
         </ul>
       </div>
     </Container>

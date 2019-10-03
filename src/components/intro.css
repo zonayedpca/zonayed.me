@@ -4,8 +4,15 @@
   align-items: center;
 }
 
+.intro-area .bg {
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+
 .intro {
   padding-left: 100px;
+  padding-top: 50px;
 }
 
 .intro p {

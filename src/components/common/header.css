@@ -1,3 +1,8 @@
+header {
+  position: fixed;
+  width: 100%;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -10,4 +15,21 @@
 
 .menubar {
   display: flex;
+}
+
+.menubar li {
+  margin: 0 15px;
+}
+
+.menubar li:last-child {
+  margin-right: 0;
+}
+
+.menubar li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  padding: ;
 }

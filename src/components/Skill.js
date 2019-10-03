@@ -1,70 +1,39 @@
-import React from "react"
+import React, { useState } from "react"
 
 import { Container, Title } from "./common"
+
+import { skills } from "../data"
 
 import "./skill.css"
 
 const Skill = () => {
+  const skillsName = Object.keys(skills)
+  const [selectedSkill, setSelectedSkill] = useState(skillsName[0])
+  const selectedSkills = skills[selectedSkill]
   return (
     <div className="skill-area">
       <Container>
         <Title title="My Skills" />
         <div className="skills">
           <ul className="skill-nav">
-            <li>One</li>
-            <li>Two</li>
-            <li>Three</li>
+            {skillsName.map(name => (
+              <li
+                onClick={() => setSelectedSkill(name)}
+                className={name === selectedSkill ? "active" : ""}
+                key={name}
+              >
+                {name}
+              </li>
+            ))}
           </ul>
           <div className="skill">
-            <div className="card">
-              <h4>Programming</h4>
-              <p>94%</p>
-              <div className="progress-ar" />
-            </div>
-            <div className="card">
-              <h4>Programming</h4>
-              <p>94%</p>
-              <div className="progress-ar" />
-            </div>
-            <div className="card">
-              <h4>Programming</h4>
-              <p>94%</p>
-              <div className="progress-ar" />
-            </div>
-          </div>
-          <div className="skill">
-            <div className="card">
-              <h4>Programming</h4>
-              <p>94%</p>
-              <div className="progress-ar" />
-            </div>
-            <div className="card">
-              <h4>Programming</h4>
-              <p>94%</p>
-              <div className="progress-ar" />
-            </div>
-            <div className="card">
-              <h4>Programming</h4>
-              <p>94%</p>
-              <div className="progress-ar" />
-            </div>
-          </div>
-          <div className="skill">
-            <div className="card">
-              <h4>Programming</h4>
-              <p>94%</p>
-              <div className="progress-ar" />
-            </div>
-            <div className="card">
-              <h4>Programming</h4>
-              <p>94%</p>
-              <div className="progress-ar" />
-            </div>
-            <div className="card">
-              <h4>Programming</h4>
-              <p>94%</p>
-              <div className="progress-ar" />
-            </div>
+            {selectedSkills.map(({ name, percent }) => (
+              <div key={name} className="card">
+                <h4>{name}</h4>
+                <p>{percent}%</p>
+                <div style={{ width: percent + "%" }} className="progress-ar" />
+              </div>
+            ))}
           </div>
         </div>
       </Container>

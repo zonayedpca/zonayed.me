@@ -5,3 +5,75 @@
 .skills {
   padding-left: 100px;
 }
+
+.skill-nav {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.skill-nav li {
+  border: solid 2px #00cf5d;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 5px 25px;
+  margin-right: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.skill-nav li.active {
+  background-color: #00cf5d;
+}
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill > * {
+  flex: 1 1 calc(100% / 2 - 30px);
+}
+
+.skill .card {
+  position: relative;
+  background-color: #1d293a;
+  padding: 25px;
+  padding-bottom: 35px;
+  margin: 15px;
+}
+
+.skill .card h4 {
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.skill .card p {
+  position: absolute;
+  background-color: #00cf5d;
+  padding: 3px 5px;
+  top: 25px;
+  font-weight: 900;
+  color: #fff;
+  right: 15px;
+  border-radius: 4px;
+}
+
+.skill .card .progress-ar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  background-color: #00cf5d;
+}
+
+.skill > *:nth-child(1),
+.skill > *:nth-child(2) {
+  margin-top: 0;
+}
+
+.skill > *:nth-child(2n - 1) {
+  margin-left: 0;
+}
+
+.skill > *:nth-child(2n) {
+  margin-right: 0;
+}

@@ -3,8 +3,8 @@ import {
   FaGithub,
   FaCodepen,
   FaLinkedinIn,
+  FaMediumM,
   FaTwitter,
-  FaFacebookF,
 } from "react-icons/fa"
 
 import "./title.css"
@@ -34,12 +34,12 @@ export const Title = ({ title, social, side, height }) => {
           </li>
           <li>
             <a href="#">
-              <FaTwitter />
+              <FaMediumM />
             </a>
           </li>
           <li>
             <a href="#">
-              <FaFacebookF />
+              <FaTwitter />
             </a>
           </li>
         </ul>

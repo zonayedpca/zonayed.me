@@ -1,3 +1,7 @@
+.portfolio-area {
+  position: relative;
+}
+
 .portfolios {
   padding-left: 100px;
 }

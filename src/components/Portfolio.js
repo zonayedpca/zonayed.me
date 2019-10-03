@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio-area">
       <Container>
-        <div className="title left">
+        <div className="title left" style={{ height: "160px" }}>
           <p>Portfolio</p>
         </div>
         <div className="portfolios">

@@ -36,6 +36,14 @@
   background-color: #111a28;
 }
 
+.title ul li {
+  margin-bottom: 10px;
+}
+
+.title ul li a {
+  color: rgba(255, 255, 255, 0.85);
+}
+
 .title p {
   padding: 5px 10px;
   font-weight: 900;

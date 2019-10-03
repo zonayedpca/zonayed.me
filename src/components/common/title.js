@@ -1,4 +1,11 @@
 import React from "react"
+import {
+  FaGithub,
+  FaCodepen,
+  FaLinkedinIn,
+  FaTwitter,
+  FaFacebookF,
+} from "react-icons/fa"
 
 import "./title.css"
 
@@ -10,10 +17,31 @@ export const Title = ({ title, social, side, height }) => {
     >
       {social && (
         <ul>
-          <li>Fa</li>
-          <li>Tw</li>
-          <li>Lk</li>
-          <li>Be</li>
+          <li>
+            <a href="#">
+              <FaGithub />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FaCodepen />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FaLinkedinIn />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FaTwitter />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FaFacebookF />
+            </a>
+          </li>
         </ul>
       )}
       <p>{title}</p>

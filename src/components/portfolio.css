@@ -5,3 +5,90 @@
 .portfolios {
   padding-left: 100px;
 }
+
+.portfolio-nav {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.portfolio-nav li {
+  border: solid 2px #00cf5d;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 5px 25px;
+  margin-right: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.portfolio-nav li.active {
+  background-color: #00cf5d;
+}
+
+.portfolio-items {
+  display: flex;
+}
+
+.portfolio-items > * {
+  margin: 15px;
+  background-color: #1d293a;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.portfolio-items > *:first-child {
+  margin-left: 0;
+}
+
+.portfolio-items > *:last-child {
+  margin-right: 0;
+}
+
+.portfolio-items .details {
+  padding: 25px;
+}
+
+.portfolio-items .details h4 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.portfolio-items .portfolio-img {
+  position: relative;
+}
+
+.portfolio-items .portfolio-img:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background: #1d293a;
+  mix-blend-mode: hue;
+  transition: 0.5s all;
+}
+
+.portfolio-items .portfolio:hover .portfolio-img:after {
+  opacity: 0;
+}
+
+.portfolio-items .details h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio-items .portfolio-tools {
+  display: flex;
+  margin-top: 15px;
+}
+
+.portfolio-items .portfolio-tools li {
+  margin-right: 15px;
+}
+
+.portfolio-items .portfolio-tools li a {
+  text-decoration: none;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 16px;
+}

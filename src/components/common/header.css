@@ -1,6 +1,21 @@
 header {
   position: fixed;
   width: 100%;
+  z-index: 10;
+  transform: translateY(0);
+  transition: 0.5s all;
+}
+
+header.compaq {
+  background-color: #1d293a;
+}
+
+header.hide {
+  transform: translateY(-120px);
+}
+
+header.compaq .container {
+  padding: 15px 0 !important;
 }
 
 .header {

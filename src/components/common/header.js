@@ -39,22 +39,22 @@ const Header = ({ siteTitle }) => {
           </div>
           <ul className="menubar">
             <li>
-              <a href="#">About</a>
+              <a href="https://zonayed.me">About</a>
             </li>
             <li>
-              <a href="#">Skill</a>
+              <a href="https://zonayed.me">Skill</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="https://zonayed.me">Portfolio</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="https://zonayed.me">Contact</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="https://zonayed.me">Blog</a>
             </li>
             <li>
-              <a href="#">Resume</a>
+              <a href="https://zonayed.me">Resume</a>
             </li>
           </ul>
         </div>

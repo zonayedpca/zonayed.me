@@ -1,6 +1,6 @@
 import React from "react"
 
-import { IntroBG, Container, Title, Button } from "./common"
+import { Container, Title, Button } from "./common"
 
 import "./intro.css"
 

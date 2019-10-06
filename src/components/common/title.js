@@ -18,27 +18,27 @@ export const Title = ({ title, social, side, height }) => {
       {social && (
         <ul>
           <li>
-            <a href="#">
+            <a href="https://zonayed.me">
               <FaGithub />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://zonayed.me">
               <FaCodepen />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://zonayed.me">
               <FaLinkedinIn />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://zonayed.me">
               <FaMediumM />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://zonayed.me">
               <FaTwitter />
             </a>
           </li>

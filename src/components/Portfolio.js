@@ -34,8 +34,8 @@ const Portfolio = () => {
             ))}
           </ul>
           <div className="portfolio-items portfolios-featured">
-            {selectedFeaturedPortfolios.map(portfolio => (
-              <div key={portfolio.name} className="portfolio">
+            {selectedFeaturedPortfolios.map((portfolio, index) => (
+              <div key={index} className="portfolio">
                 <div className="portfolio-img">
                   <img alt={portfolio.name} src={portfolio.image} />
                 </div>
@@ -47,7 +47,7 @@ const Portfolio = () => {
                   <ul className="portfolio-tools">
                     {portfolio.tools.map(tool => (
                       <li key={tool}>
-                        <a href="#">{tool}</a>
+                        <a href="http://zonayed.me">{tool}</a>
                       </li>
                     ))}
                   </ul>
@@ -56,8 +56,8 @@ const Portfolio = () => {
             ))}
           </div>
           <div className="portfolio-items portfolios-regular">
-            {selectedPortfolios.map(portfolio => (
-              <div key={portfolio.name} className="portfolio">
+            {selectedPortfolios.map((portfolio, index) => (
+              <div key={index} className="portfolio">
                 <div className="details">
                   <h4>
                     <a href={portfolio.demo}>{portfolio.name}</a>
@@ -66,7 +66,7 @@ const Portfolio = () => {
                   <ul className="portfolio-tools">
                     {portfolio.tools.map(tool => (
                       <li key={tool}>
-                        <a href="#">{tool}</a>
+                        <a href="http://zonayed.me">{tool}</a>
                       </li>
                     ))}
                   </ul>

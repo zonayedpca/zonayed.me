@@ -1,3 +1,35 @@
 .love-to-do {
   padding-right: 100px;
+  display: flex;
+}
+
+.love-to-do > * {
+  flex: 1 1 calc(100% / 4);
+}
+
+.love-to-do .stickpad {
+  background-color: #1d293a;
+  padding: 45px 25px;
+  margin: 0 15px;
+  border-radius: 4px;
+}
+
+.love-to-do > *:first-of-type {
+  margin-left: 0;
+}
+
+.love-to-do > *:last-of-type {
+  margin-right: 0;
+}
+
+.love-to-do .stickpad img {
+  display: inline-block;
+  width: 65px;
+  margin-bottom: 15px;
+}
+
+.love-to-do .stickpad h4 {
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 22px;
 }

@@ -1,3 +1,37 @@
 .contact-area {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact > * {
+  flex: 1 1 calc(50% - 30px);
+}
+
+.contact > *:first-of-type {
+  margin-right: 15px;
+}
+
+.contact > *:last-of-type {
+  margin-left: 15px;
+}
+
+.contact-status p {
+  line-height: 2;
+}
+
+.contact-details li {
+  margin-bottom: 15px;
+}
+
+.contact-details h5 {
+  font-size: 26px;
+}
+
+.contact-details p span {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.65);
+}

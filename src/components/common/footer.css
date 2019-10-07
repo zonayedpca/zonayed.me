@@ -1,3 +1,7 @@
+.footer-area {
+  background-color: #1d293a;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -10,7 +14,7 @@
 
 .footer .language ul li {
   position: relative;
-  background-color: #1d293a;
+  background-color: #111a28;
   margin-right: 15px;
   padding: 3px 10px;
   font-weight: 900;

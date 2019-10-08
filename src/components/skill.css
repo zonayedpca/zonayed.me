@@ -39,6 +39,7 @@
   padding: 25px;
   padding-bottom: 35px;
   margin: 15px;
+  border-radius: 4px;
 }
 
 .skill .card h4 {
@@ -63,6 +64,7 @@
   left: 0;
   height: 10px;
   background-color: #00cf5d;
+  border-radius: 4px;
 }
 
 .skill > *:nth-child(1),

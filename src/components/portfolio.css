@@ -32,6 +32,7 @@
   margin: 15px;
   background-color: #1d293a;
   color: rgba(255, 255, 255, 0.85);
+  border-radius: 4px;
 }
 
 .portfolio-items > *:first-child {
@@ -70,6 +71,14 @@
 
 .portfolio-items .portfolio:hover .portfolio-img:after {
   opacity: 0;
+}
+
+.portfolio-items .portfolio.small h4 {
+  font-size: 22px;
+}
+
+.portfolio-items .portfolio-img img {
+  border-radius: 4px;
 }
 
 .portfolio-items .details h4 a {

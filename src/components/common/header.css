@@ -30,6 +30,7 @@ header.compaq .container {
 
 .menubar {
   display: flex;
+  align-items: center;
 }
 
 .menubar li {
@@ -46,5 +47,11 @@ header.compaq .container {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
-  padding: ;
+}
+
+.menubar li a.btn-download {
+  display: inline-block;
+  border: solid 2px #00cf5d;
+  padding: 5px 15px;
+  border-radius: 4px;
 }

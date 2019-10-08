@@ -8,7 +8,7 @@ import "./about.css"
 
 const About = () => {
   return (
-    <div className="about-area">
+    <div id="about" className="about-area">
       <Container>
         <Title side="right" title="About Me" />
         <div className="about">
@@ -22,8 +22,13 @@ const About = () => {
               know more about me
             </p>
             <div className="about-action">
-              <Button title="Download CV" />
-              <Button ml="15px" title="My Skills" />
+              <Button
+                link="https://zonayed.me"
+                target="_blank"
+                bgColor="#00cf5d"
+                title="Get Resume"
+              />
+              <Button clickEvent link="#skill" ml="15px" title="My Skills" />
             </div>
           </div>
           <div className="about-image">

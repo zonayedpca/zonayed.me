@@ -20,8 +20,13 @@ const Intro = () => {
               <li>Biker</li>
             </ul>
             <div className="action">
-              <Button title="Download CV" />
-              <Button ml="15px" title="About Me" />
+              <Button
+                link="https://zonayed.me"
+                target="__blank"
+                bgColor="#00cf5d"
+                title="Get Resume"
+              />
+              <Button clickEvent link="#about" ml="15px" title="About Me" />
             </div>
           </div>
         </div>

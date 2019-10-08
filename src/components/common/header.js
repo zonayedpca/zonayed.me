@@ -26,6 +26,19 @@ const Header = ({ siteTitle }) => {
     }
     prevScrollPosition = curScrollPosition
   })
+
+  const handleScroll = e => {
+    e.preventDefault()
+    const hash = e.target.hash
+    const el = document.querySelector(hash)
+    const offsetTop = el.offsetTop
+    window.scrollTo({
+      top: offsetTop,
+      left: 0,
+      behavior: "smooth",
+    })
+  }
+
   return (
     <header ref={headerEl}>
       <Container padding="25px 0">
@@ -39,22 +52,38 @@ const Header = ({ siteTitle }) => {
           </div>
           <ul className="menubar">
             <li>
-              <a href="https://zonayed.me">About</a>
+              <a onClick={handleScroll} href="#about">
+                About
+              </a>
             </li>
             <li>
-              <a href="https://zonayed.me">Skill</a>
+              <a onClick={handleScroll} href="#skill">
+                Skill
+              </a>
             </li>
             <li>
-              <a href="https://zonayed.me">Portfolio</a>
+              <a onClick={handleScroll} href="#portfolio">
+                Portfolio
+              </a>
             </li>
             <li>
-              <a href="https://zonayed.me">Contact</a>
+              <a onClick={handleScroll} href="#contact">
+                Contact
+              </a>
             </li>
             <li>
-              <a href="https://zonayed.me">Blog</a>
+              <a
+                target="__blank"
+                rel="noopener noreferrer"
+                href="https://with.zonayed.me"
+              >
+                Blog
+              </a>
             </li>
             <li>
-              <a href="https://zonayed.me">Resume</a>
+              <a className="btn-download" href="https://zonayed.me">
+                Resume
+              </a>
             </li>
           </ul>
         </div>

@@ -16,7 +16,7 @@ const Portfolio = () => {
     portfolio => portfolio.type === "regular"
   )
   return (
-    <div className="portfolio-area">
+    <div id="portfolio" className="portfolio-area">
       <Container>
         <div className="title left" style={{ height: "160px" }}>
           <p>Portfolio</p>
@@ -57,7 +57,7 @@ const Portfolio = () => {
           </div>
           <div className="portfolio-items portfolios-regular">
             {selectedPortfolios.map((portfolio, index) => (
-              <div key={index} className="portfolio">
+              <div key={index} className="portfolio small">
                 <div className="details">
                   <h4>
                     <a href={portfolio.demo}>{portfolio.name}</a>

@@ -5,6 +5,8 @@ import "./button.css"
 const Button = ({
   title,
   link,
+  target,
+  clickEvent,
   color,
   bgColor,
   borderColor,
@@ -13,6 +15,17 @@ const Button = ({
   ml,
   mr,
 }) => {
+  const handleClick = e => {
+    e.preventDefault()
+    const hash = e.target.hash
+    const el = document.querySelector(hash)
+    const offsetTop = el.offsetTop
+    window.scrollTo({
+      top: offsetTop,
+      left: 0,
+      behavior: "smooth",
+    })
+  }
   return (
     <a
       style={{
@@ -24,6 +37,9 @@ const Button = ({
         borderColor,
         backgroundColor: bgColor,
       }}
+      target={target}
+      onClick={clickEvent && handleClick}
+      rel={target ? "noopener noreferrer" : ""}
       className="btn"
       href={link}
     >
@@ -35,6 +51,7 @@ const Button = ({
 Button.defaultProps = {
   title: "Button",
   link: "https://zonayed.me",
+  target: "",
   marginTop: 0,
   marginBottom: 0,
   marginLeft: 0,

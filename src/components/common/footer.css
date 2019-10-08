@@ -18,6 +18,7 @@
   margin-right: 15px;
   padding: 3px 10px;
   font-weight: 900;
+  border-radius: 4px;
 }
 
 .footer .language ul li p {
@@ -33,6 +34,7 @@
   height: 3px;
   width: 100%;
   bottom: 0;
+  border-radius: 4px;
 }
 
 .footer .copyright {
@@ -69,4 +71,5 @@
   margin-left: 15px;
   background-color: #00cf5d;
   padding: 2px 5px;
+  border-radius: 4px;
 }

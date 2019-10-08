@@ -1,12 +1,12 @@
 export const skills = {
-  Language: [
+  ["Library/Framework"]: [
     { name: "C", percent: 90 },
     { name: "C++", percent: 60 },
     { name: "JavaScript", percent: 80 },
     { name: "Java", percent: 50 },
     { name: "Python", percent: 60 },
   ],
-  ["Library/Framework"]: [
+  ["Programming Language"]: [
     { name: "C", percent: 90 },
     { name: "C++", percent: 60 },
     { name: "JavaScript", percent: 80 },

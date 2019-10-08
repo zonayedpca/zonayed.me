@@ -6,7 +6,7 @@ export const skills = {
     { name: "Java", percent: 50 },
     { name: "Python", percent: 60 },
   ],
-  Core: [
+  ["Library/Framework"]: [
     { name: "C", percent: 90 },
     { name: "C++", percent: 60 },
     { name: "JavaScript", percent: 80 },
@@ -20,7 +20,7 @@ export const skills = {
     { name: "Java", percent: 50 },
     { name: "Python", percent: 60 },
   ],
-  Others: [
+  Design: [
     { name: "C", percent: 90 },
     { name: "C++", percent: 60 },
     { name: "JavaScript", percent: 80 },

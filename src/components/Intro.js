@@ -31,9 +31,6 @@ const Intro = () => {
           </div>
         </div>
       </Container>
-      {/* <div className="bg">
-        <IntroBG />
-      </div> */}
     </div>
   )
 }

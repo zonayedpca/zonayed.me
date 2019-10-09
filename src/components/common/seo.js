@@ -52,6 +52,22 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: "og:image",
+          content: require("../../assets/image/thumbnail.png"),
+        },
+        {
+          property: "og:image:secure_url",
+          content: require("../../assets/image/thumbnail.png"),
+        },
+        {
+          property: "og:image:width",
+          content: "1200",
+        },
+        {
+          property: "og:image:height",
+          content: "675",
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -73,7 +89,7 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `bn`,
   meta: [],
   description: ``,
 }

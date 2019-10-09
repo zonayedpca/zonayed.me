@@ -22,6 +22,7 @@
 
 .skill-nav li.active {
   background-color: #00cf5d;
+  font-weight: 900;
 }
 
 .skill {
@@ -44,6 +45,7 @@
 
 .skill .card h4 {
   font-size: 22px;
+  font-weight: 900;
   color: rgba(255, 255, 255, 0.85);
 }
 

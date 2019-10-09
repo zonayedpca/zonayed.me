@@ -2,6 +2,7 @@ import React from "react"
 import { FaAngleUp, FaStar, FaCodeBranch } from "react-icons/fa"
 
 import { Container } from "./container"
+import { languages } from "../../data"
 
 import "./footer.css"
 
@@ -16,39 +17,33 @@ export const Footer = () => {
         <div className="footer">
           <div className="language">
             <ul>
-              <li>
-                <p>Thanks</p>
-                <div className="progress" />
-              </li>
-              <li>
-                <p>ধন্যবাদ</p>
-                <div className="progress" />
-              </li>
-              <li>
-                <p>धन्यवाद</p>
-                <div className="progress" />
-              </li>
-              <li>
-                <p>ਧੰਨਵਾਦ</p>
-                <div className="progress" />
-              </li>
-              <li>
-                <p>با تشکر</p>
-                <div className="progress" />
-              </li>
+              {languages.map(({ id, text, progress }) => (
+                <li key={id}>
+                  <p>{text}</p>
+                  <div style={{ width: progress + "%" }} className="progress" />
+                </li>
+              ))}
             </ul>
           </div>
           <div className="copyright">
             <ul className="github">
               <li>
-                <a href="#">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/zonayedpca/zonayed.me"
+                >
                   <p>
                     <FaStar /> Star
                   </p>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/zonayedpca/zonayed.me"
+                >
                   <p>
                     <FaCodeBranch /> Fork
                   </p>

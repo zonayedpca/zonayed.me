@@ -1,4 +1,5 @@
 export const skills = {
+  // eslint-disable-next-line no-useless-computed-key
   ["Library/Framework"]: [
     { name: "C", percent: 90 },
     { name: "C++", percent: 60 },
@@ -6,6 +7,7 @@ export const skills = {
     { name: "Java", percent: 50 },
     { name: "Python", percent: 60 },
   ],
+  // eslint-disable-next-line no-useless-computed-key
   ["Programming Language"]: [
     { name: "C", percent: 90 },
     { name: "C++", percent: 60 },

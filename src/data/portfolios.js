@@ -7,8 +7,8 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -18,8 +18,8 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -29,8 +29,8 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -39,8 +39,8 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -49,8 +49,8 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -59,8 +59,8 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
   ],
@@ -72,8 +72,8 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -83,8 +83,8 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -94,8 +94,8 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -104,8 +104,8 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -114,8 +114,8 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -124,8 +124,8 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
   ],
@@ -137,8 +137,8 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -148,8 +148,8 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -159,8 +159,8 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -169,8 +169,8 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -179,8 +179,8 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
     {
@@ -189,8 +189,8 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "",
-      source: "",
+      demo: "https://google.com",
+      source: "https://google.com",
       tools: ["nodejs", "expressjs", "graphql"],
     },
   ],

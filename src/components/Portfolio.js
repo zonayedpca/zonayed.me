@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 
 import { Container } from "./common"
 
@@ -41,14 +42,44 @@ const Portfolio = () => {
                 </div>
                 <div className="details">
                   <h4>
-                    <a href={portfolio.demo}>{portfolio.name}</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={portfolio.demo}
+                    >
+                      {portfolio.name}
+                    </a>
                   </h4>
                   <p>{portfolio.description}</p>
+                  <div className="links">
+                    <ul>
+                      {portfolio.source && (
+                        <li>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={portfolio.source}
+                          >
+                            <FaGithub />
+                          </a>
+                        </li>
+                      )}
+                      {portfolio.demo && (
+                        <li>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={portfolio.demo}
+                          >
+                            <FaExternalLinkAlt />
+                          </a>
+                        </li>
+                      )}
+                    </ul>
+                  </div>
                   <ul className="portfolio-tools">
                     {portfolio.tools.map(tool => (
-                      <li key={tool}>
-                        <a href="http://zonayed.me">{tool}</a>
-                      </li>
+                      <li key={tool}>{tool}</li>
                     ))}
                   </ul>
                 </div>
@@ -60,14 +91,44 @@ const Portfolio = () => {
               <div key={index} className="portfolio small">
                 <div className="details">
                   <h4>
-                    <a href={portfolio.demo}>{portfolio.name}</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={portfolio.demo}
+                    >
+                      {portfolio.name}
+                    </a>
                   </h4>
                   <p>{portfolio.description}</p>
+                  <div className="links">
+                    <ul>
+                      {portfolio.source && (
+                        <li>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={portfolio.source}
+                          >
+                            <FaGithub />
+                          </a>
+                        </li>
+                      )}
+                      {portfolio.demo && (
+                        <li>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={portfolio.demo}
+                          >
+                            <FaExternalLinkAlt />
+                          </a>
+                        </li>
+                      )}
+                    </ul>
+                  </div>
                   <ul className="portfolio-tools">
                     {portfolio.tools.map(tool => (
-                      <li key={tool}>
-                        <a href="http://zonayed.me">{tool}</a>
-                      </li>
+                      <li key={tool}>{tool}</li>
                     ))}
                   </ul>
                 </div>

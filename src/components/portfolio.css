@@ -58,6 +58,28 @@
   position: relative;
 }
 
+.portfolio-items .portfolio .links {
+  margin-top: 15px;
+}
+
+.portfolio-items .portfolio .links ul {
+  display: flex;
+  font-size: 22px;
+}
+
+.portfolio-items .portfolio .links ul li {
+  margin-right: 10px;
+}
+
+.portfolio-items .portfolio .links ul li a {
+  color: rgba(255, 255, 255, 0.65);
+  transition: 0.2s all;
+}
+
+.portfolio-items .portfolio .links ul li a:hover {
+  color: #00cf5d;
+}
+
 .portfolio-items .portfolio-img:after {
   position: absolute;
   content: "";
@@ -97,7 +119,7 @@
   margin-right: 15px;
 }
 
-.portfolio-items .portfolio-tools li a {
+.portfolio-items .portfolio-tools li {
   text-decoration: none;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.65);

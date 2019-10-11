@@ -5,6 +5,7 @@
 .about {
   padding-right: 100px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -37,4 +38,16 @@
 .about-image:hover img {
   transform: scale(1);
   filter: grayscale(0);
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    text-align: center;
+    padding-right: 0;
+    flex-direction: column-reverse;
+  }
+
+  .about > * {
+    flex: 1 1 100%;
+  }
 }

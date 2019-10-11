@@ -14,7 +14,3 @@ export const Container = ({ children, padding }) => {
     </div>
   )
 }
-
-Container.defaultProps = {
-  padding: `100px 0`,
-}

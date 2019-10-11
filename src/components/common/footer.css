@@ -4,6 +4,7 @@
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -72,4 +73,16 @@
   background-color: #00cf5d;
   padding: 2px 5px;
   border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer > * {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .footer .language ul {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 }

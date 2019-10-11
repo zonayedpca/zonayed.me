@@ -27,10 +27,12 @@
 
 .portfolio-items {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio-items > * {
   margin: 15px;
+  flex: 1 1 calc(100% / 3 - 30px);
   background-color: #1d293a;
   color: rgba(255, 255, 255, 0.85);
   border-radius: 4px;
@@ -124,4 +126,41 @@
   font-weight: 300;
   color: rgba(255, 255, 255, 0.65);
   font-size: 16px;
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio-items > * {
+    flex: 1 1 calc(100% / 2 - 30px);
+  }
+
+  .portfolio-items > *:nth-child(2n - 1) {
+    margin-left: 0;
+  }
+
+  .portfolio-items > *:nth-child(2n - 2) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolios {
+    padding-left: 0;
+  }
+
+  .portfolio-nav {
+    justify-content: center;
+  }
+
+  .portfolio-items > * {
+    flex-basis: 100%;
+  }
+
+  .portfolio-items > * {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-items > *:last-child {
+    margin-bottom: 0;
+  }
 }

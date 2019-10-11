@@ -1,16 +1,20 @@
 .love-to-do {
   padding-right: 100px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .love-to-do > * {
-  flex: 1 1 calc(100% / 4);
+  flex: 1 1 calc(100% / 4 - 30px);
 }
 
 .love-to-do .stickpad {
   background-color: #1d293a;
   padding: 45px 25px;
   margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-radius: 4px;
 }
 
@@ -32,4 +36,32 @@
   font-weight: 900;
   color: rgba(255, 255, 255, 0.85);
   font-size: 22px;
+}
+
+@media only screen and (max-width: 991px) {
+  .love-to-do > * {
+    flex: 1 1 calc(100% / 2 - 30px);
+  }
+
+  .love-to-do .stickpad {
+    margin-bottom: 30px;
+  }
+
+  .love-to-do > *:nth-child(2n - 1) {
+    margin-left: 0;
+  }
+
+  .love-to-do > *:nth-child(2n - 2) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .love-to-do {
+    padding-right: 0;
+  }
+
+  /* .love-to-do > * {
+    flex-basis: 100%;
+  } */
 }

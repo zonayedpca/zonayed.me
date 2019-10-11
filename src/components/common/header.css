@@ -15,7 +15,8 @@ header.hide {
 }
 
 header.compaq .container {
-  padding: 15px 0 !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
 }
 
 .header {
@@ -74,4 +75,10 @@ header.compaq .container {
   border: solid 2px #00cf5d;
   padding: 5px 15px;
   border-radius: 4px;
+}
+
+@media only screen and (max-width: 991px) {
+  /* .menubar li {
+    margin: 0 5px;
+  } */
 }

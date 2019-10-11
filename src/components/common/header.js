@@ -1,6 +1,6 @@
-import { Link, useStaticQuery } from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, { useRef, useState, useEffect } from "react"
+import React, { useRef } from "react"
 
 import { Container } from "./container"
 import { Logo } from "./logo"
@@ -49,7 +49,7 @@ const Header = ({ siteTitle }) => {
 
   return (
     <header ref={headerEl}>
-      <Container padding="25px 0">
+      <Container padding="25px 25px">
         <div className="header">
           <div className="logo">
             <h1>

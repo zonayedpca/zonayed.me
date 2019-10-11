@@ -56,3 +56,24 @@
 .intro ul li:first-child:before {
   display: none;
 }
+
+@media only screen and (max-width: 991px) {
+  .intro h1 {
+    font-size: 62px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro-area {
+    flex-direction: column-reverse;
+  }
+
+  .intro {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .intro ul {
+    justify-content: center;
+  }
+}

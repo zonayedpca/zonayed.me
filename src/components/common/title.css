@@ -61,3 +61,42 @@
 .title.title.right p {
   transform: rotate(90deg);
 }
+
+@media only screen and (max-width: 1199px) {
+  .title.left {
+    left: 0;
+  }
+
+  .title.right {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    position: relative;
+    height: initial !important;
+    padding-bottom: 50px;
+    flex-direction: column-reverse;
+  }
+
+  .title.left p,
+  .title.title.right p {
+    transform: rotate(0);
+  }
+
+  .title:after {
+    top: 0;
+    height: 2px;
+    width: 260px;
+  }
+
+  .title ul {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .title ul li {
+    margin: 0 15px;
+  }
+}

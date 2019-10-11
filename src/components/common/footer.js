@@ -13,7 +13,7 @@ export const Footer = () => {
   }
   return (
     <footer className="footer-area">
-      <Container padding="50px 0">
+      <Container padding="50px 25px">
         <div className="footer">
           <div className="language">
             <ul>

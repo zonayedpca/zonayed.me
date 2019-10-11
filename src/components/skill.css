@@ -84,4 +84,31 @@
 
 .skill > *:last-child {
   margin-right: 0;
+  flex: 0 0 calc(50% - 15px);
+}
+
+@media only screen and (max-width: 768px) {
+  .skills {
+    padding-left: 0;
+  }
+
+  .skill-nav {
+    justify-content: center;
+  }
+
+  .skill > * {
+    flex: 1 1 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .skill .card {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .skill > *:last-child {
+    flex-basis: 100%;
+    margin-bottom: 0;
+  }
 }

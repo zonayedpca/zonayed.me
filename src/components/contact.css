@@ -1,6 +1,7 @@
 .contact {
   display: flex;
   flex-wrap: wrap;
+  padding-right: 100px;
 }
 
 .contact > * {
@@ -31,4 +32,25 @@
 .contact-details p span {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.65);
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    padding-right: 0;
+  }
+
+  .contact > * {
+    flex-basis: 100%;
+  }
+
+  .contact > *:first-of-type {
+    margin-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .contact > *:last-of-type {
+    margin-left: 0;
+    text-align: center;
+  }
 }

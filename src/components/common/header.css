@@ -24,9 +24,29 @@ header.compaq .container {
   justify-content: space-between;
 }
 
+.header .logo {
+  position: relative;
+}
+
 .header .logo svg {
   width: 45px;
 }
+
+/* .header .logo .load-bg {
+  position: absolute;
+  left: calc(50% - 5px);
+  top: calc(50% + -9px);
+  background-color: #00cf5d;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 40px;
+  transform-origin: 0% 0%;
+  transition: all 0.5s;
+}
+
+.header .logo .load-bg.hide {
+  transform: scale(0);
+} */
 
 .menubar {
   display: flex;

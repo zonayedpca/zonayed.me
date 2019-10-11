@@ -15,9 +15,9 @@ const Intro = () => {
             <h1>Zonayed Ahmed</h1>
             <h3>Full Stack Developer</h3>
             <ul>
-              <li>Progammer</li>
-              <li>Gamer</li>
-              <li>Biker</li>
+              <li>Web Developer</li>
+              <li>Programmer</li>
+              <li>Software Engineer</li>
             </ul>
             <div className="action">
               <Button

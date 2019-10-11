@@ -1,6 +1,6 @@
-import { Link } from "gatsby"
+import { Link, useStaticQuery } from "gatsby"
 import PropTypes from "prop-types"
-import React, { useRef } from "react"
+import React, { useRef, useState, useEffect } from "react"
 
 import { Container } from "./container"
 import { Logo } from "./logo"
@@ -8,6 +8,14 @@ import { Logo } from "./logo"
 import "./header.css"
 
 const Header = ({ siteTitle }) => {
+  // const [theLoader, setTheLoader] = useState(true)
+
+  // useEffect(() => {
+  //   const disableLoader = setTimeout(() => {
+  //     setTheLoader(false)
+  //   }, 2000)
+  // }, [theLoader])
+
   const headerEl = useRef()
   let prevScrollPosition = window.pageYOffset
   window.addEventListener("scroll", () => {
@@ -49,6 +57,7 @@ const Header = ({ siteTitle }) => {
                 <Logo />
               </Link>
             </h1>
+            {/* <div className={`load-bg ${theLoader ? "" : "hide"}`}></div> */}
           </div>
           <ul className="menubar">
             <li>

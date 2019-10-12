@@ -100,3 +100,13 @@
     margin: 0 15px;
   }
 }
+
+@media only screen and (max-width: 481px) {
+  .title:after {
+    width: 180px;
+  }
+
+  .title {
+    padding-bottom: 25px;
+  }
+}

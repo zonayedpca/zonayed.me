@@ -21,3 +21,9 @@
     padding: 60px 15px;
   }
 }
+
+@media only screen and (max-width: 481px) {
+  .container {
+    padding: 40px 15px;
+  }
+}

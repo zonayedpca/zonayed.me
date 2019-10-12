@@ -93,3 +93,30 @@
     font-size: 16px;
   }
 }
+
+@media only screen and (max-width: 481px) {
+  .intro p {
+    font-size: 18px;
+  }
+
+  .intro h1 {
+    font-size: 36px;
+  }
+
+  .intro h3 {
+    font-size: 20px;
+  }
+
+  .intro ul {
+    flex-direction: column;
+  }
+
+  .intro ul li {
+    font-size: 14px;
+    margin-right: 0;
+  }
+
+  .intro ul li:before {
+    display: none;
+  }
+}

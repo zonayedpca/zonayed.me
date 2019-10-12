@@ -8,6 +8,7 @@
 
 .skill-nav {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 25px;
 }
 
@@ -119,5 +120,20 @@
   .skill > *:last-child {
     flex-basis: 100%;
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .skill-nav {
+    margin-bottom: 0;
+  }
+
+  .skill-nav li {
+    margin: 0 5px;
+    margin-bottom: 15px;
+  }
+
+  .skill .card {
+    margin-bottom: 15px;
   }
 }

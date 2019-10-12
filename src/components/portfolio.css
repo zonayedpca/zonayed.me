@@ -8,6 +8,7 @@
 
 .portfolio-nav {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 25px;
 }
 
@@ -166,5 +167,24 @@
 @media only screen and (max-width: 768px) {
   .portfolios-regular {
     margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .portfolio-nav {
+    margin-bottom: 0;
+  }
+
+  .portfolio-nav li {
+    margin: 0 5px;
+    margin-bottom: 15px;
+  }
+
+  .portfolio-items > * {
+    margin-bottom: 15px;
+  }
+
+  .portfolios-regular {
+    margin-top: 15px;
   }
 }

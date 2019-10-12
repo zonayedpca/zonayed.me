@@ -65,3 +65,15 @@
     flex-basis: 100%;
   } */
 }
+
+@media only screen and (max-width: 481px) {
+  .love-to-do > * {
+    flex-basis: 100%;
+  }
+
+  .love-to-do .stickpad {
+    margin: 0;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+}

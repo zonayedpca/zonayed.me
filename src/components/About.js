@@ -14,12 +14,13 @@ const About = () => {
         <div className="about">
           <div className="about-details">
             <p>
-              I am Zonayed Ahmed, from a small, beautiful country, Bangladesh. I
-              love to work with new things. Also love to add new skills in my
-              pocket continuously. Skill is my weapon and perfection is my
-              habit. Love to code with JavaScript and also love programming. I
-              am currently working as a Full Stack Web Developer. Scroll Down to
-              know more about me
+              Hello! I'm Zonayed Ahmed, a passionate software engineer. I
+              develop web applications, mobile applications, and desktop
+              applications. My core skill is based on JavaScript and I love to
+              do most of the things using JavaScript. I love to make the web
+              more open to the world. I am currently pursuing my bachelor's
+              degree at Chandigarh University, Punjab, India(Last Year). I am
+              available for any good job opportunities.
             </p>
             <div className="about-action">
               <Button

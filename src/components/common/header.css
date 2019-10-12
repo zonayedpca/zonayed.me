@@ -20,9 +20,15 @@ header.compaq .container {
 }
 
 .header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: 0.5s all;
+}
+
+.header > * {
+  flex: 1;
 }
 
 .header .logo {
@@ -77,8 +83,48 @@ header.compaq .container {
   border-radius: 4px;
 }
 
-@media only screen and (max-width: 991px) {
-  /* .menubar li {
-    margin: 0 5px;
-  } */
+.mobile-nav {
+  position: absolute;
+  background: #00cf5d;
+  right: 0;
+  top: 8px;
+  padding: 10px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #111a28;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mobile-nav {
+    display: initial;
+  }
+
+  .menubar {
+    flex-direction: column;
+    background-color: #1d293a;
+    align-items: flex-start;
+    width: 100%;
+    padding: 25px;
+    border-radius: 4px;
+    display: none;
+  }
+
+  .menubar.mobilenav-activate {
+    display: initial;
+  }
+
+  .menubar > * {
+    flex: 1 1 100%;
+  }
+
+  .menubar li {
+    margin: 5px 0;
+    padding: 5px 0;
+  }
 }

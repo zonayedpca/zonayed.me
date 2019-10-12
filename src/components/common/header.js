@@ -1,21 +1,15 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, { useRef } from "react"
+import React, { useRef, useState } from "react"
+import { FaBars } from "react-icons/fa"
 
 import { Container } from "./container"
 import { Logo } from "./logo"
 
 import "./header.css"
 
-const Header = ({ siteTitle }) => {
-  // const [theLoader, setTheLoader] = useState(true)
-
-  // useEffect(() => {
-  //   const disableLoader = setTimeout(() => {
-  //     setTheLoader(false)
-  //   }, 2000)
-  // }, [theLoader])
-
+const Header = () => {
+  const [mobileNav, setMobileNav] = useState(false)
   const headerEl = useRef()
   let prevScrollPosition = window.pageYOffset
   window.addEventListener("scroll", () => {
@@ -40,6 +34,7 @@ const Header = ({ siteTitle }) => {
     const hash = e.target.hash
     const el = document.querySelector(hash)
     const offsetTop = el.offsetTop
+    setMobileNav(false)
     window.scrollTo({
       top: offsetTop,
       left: 0,
@@ -57,9 +52,11 @@ const Header = ({ siteTitle }) => {
                 <Logo />
               </Link>
             </h1>
-            {/* <div className={`load-bg ${theLoader ? "" : "hide"}`}></div> */}
           </div>
-          <ul className="menubar">
+          <div onClick={() => setMobileNav(!mobileNav)} className="mobile-nav">
+            <FaBars />
+          </div>
+          <ul className={`menubar ${mobileNav ? "mobilenav-activate" : ""}`}>
             <li>
               <a onClick={handleScroll} href="#about">
                 About

@@ -73,7 +73,23 @@
     text-align: center;
   }
 
+  .intro p {
+    font-size: 21px;
+  }
+
+  .intro h1 {
+    font-size: 52px;
+  }
+
+  .intro h3 {
+    font-size: 22px;
+  }
+
   .intro ul {
     justify-content: center;
+  }
+
+  .intro ul li {
+    font-size: 16px;
   }
 }

@@ -11,6 +11,7 @@
 
 .footer .language ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer .language ul li {
@@ -84,5 +85,9 @@
   .footer .language ul {
     justify-content: center;
     margin-bottom: 30px;
+  }
+
+  .footer .language ul li {
+    margin-bottom: 15px;
   }
 }

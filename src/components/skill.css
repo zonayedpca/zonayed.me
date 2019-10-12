@@ -20,6 +20,10 @@
   border-radius: 4px;
 }
 
+.skill-nav li:last-child {
+  margin-right: 0;
+}
+
 .skill-nav li.active {
   background-color: #00cf5d;
   font-weight: 900;
@@ -94,6 +98,11 @@
 
   .skill-nav {
     justify-content: center;
+  }
+
+  .skill-nav li {
+    padding: 5px 15px;
+    margin-right: 10px;
   }
 
   .skill > * {

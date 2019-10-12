@@ -140,9 +140,7 @@
   .portfolio-items > *:nth-child(2n - 2) {
     margin-right: 0;
   }
-}
 
-@media only screen and (max-width: 991px) {
   .portfolios {
     padding-left: 0;
   }
@@ -162,5 +160,11 @@
 
   .portfolio-items > *:last-child {
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolios-regular {
+    margin-top: 25px;
   }
 }

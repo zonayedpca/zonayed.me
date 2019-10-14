@@ -11,23 +11,25 @@ import "./header.css"
 const Header = () => {
   const [mobileNav, setMobileNav] = useState(false)
   const headerEl = useRef()
-  let prevScrollPosition = window.pageYOffset
-  window.addEventListener("scroll", () => {
-    const curScrollPosition = window.pageYOffset
-    const difference = prevScrollPosition - curScrollPosition
-    const { current } = headerEl
-    if (curScrollPosition > 100) {
-      current.classList.add("compaq")
-    } else {
-      current.classList.remove("compaq")
-    }
-    if (difference < 0) {
-      current.classList.add("hide")
-    } else {
-      current.classList.remove("hide")
-    }
-    prevScrollPosition = curScrollPosition
-  })
+  if (typeof window !== `undefined`) {
+    let prevScrollPosition = window.pageYOffset
+    window.addEventListener("scroll", () => {
+      const curScrollPosition = window.pageYOffset
+      const difference = prevScrollPosition - curScrollPosition
+      const { current } = headerEl
+      if (curScrollPosition > 100) {
+        current.classList.add("compaq")
+      } else {
+        current.classList.remove("compaq")
+      }
+      if (difference < 0) {
+        current.classList.add("hide")
+      } else {
+        current.classList.remove("hide")
+      }
+      prevScrollPosition = curScrollPosition
+    })
+  }
 
   const handleScroll = e => {
     e.preventDefault()
@@ -35,11 +37,13 @@ const Header = () => {
     const el = document.querySelector(hash)
     const offsetTop = el.offsetTop
     setMobileNav(false)
-    window.scrollTo({
-      top: offsetTop,
-      left: 0,
-      behavior: "smooth",
-    })
+    if (typeof window !== `undefined`) {
+      window.scrollTo({
+        top: offsetTop,
+        left: 0,
+        behavior: "smooth",
+      })
+    }
   }
 
   return (

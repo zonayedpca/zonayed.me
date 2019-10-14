@@ -18,27 +18,47 @@ export const Title = ({ title, social, side, height }) => {
       {social && (
         <ul>
           <li>
-            <a href="https://zonayed.me">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/zonayedpca"
+            >
               <FaGithub />
             </a>
           </li>
           <li>
-            <a href="https://zonayed.me">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://codepen.io/zonayedpca"
+            >
               <FaCodepen />
             </a>
           </li>
           <li>
-            <a href="https://zonayed.me">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/zonayedpca"
+            >
               <FaLinkedinIn />
             </a>
           </li>
           <li>
-            <a href="https://zonayed.me">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@zonayedpca"
+            >
               <FaMediumM />
             </a>
           </li>
           <li>
-            <a href="https://zonayed.me">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/zonayedpca"
+            >
               <FaTwitter />
             </a>
           </li>

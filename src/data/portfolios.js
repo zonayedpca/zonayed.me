@@ -7,7 +7,7 @@ export const portfolios = {
         "https://repository-images.githubusercontent.com/146095243/8ddf6680-ede6-11e9-93a2-508721b67761",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "https://devsonket.com",
+      demo: "https://devsonket.github.io",
       source: "https://github.com/devsonket/devsonket.github.io",
       tools: ["gatsby", "json", "travis ci"],
     },
@@ -89,7 +89,7 @@ export const portfolios = {
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "https://zonayedjs.netlify.com/",
+      demo: "https://zonayedjsv1.netlify.com",
       source: "https://github.com/zonayedpca/old.js.zonayed.me",
       tools: ["react", "pwa"],
     },
@@ -97,66 +97,63 @@ export const portfolios = {
   Others: [
     {
       type: "featured",
-      name: "Something",
+      name: "DevTop",
       image:
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "https://google.com",
-      source: "https://google.com",
-      tools: ["nodejs", "expressjs", "graphql"],
+      demo: "https://zonayedpca.github.io/DevTop",
+      source: "https://github.com/zonayedpca/DevTop",
+      tools: ["electron", "react"],
     },
     {
       type: "featured",
-      name: "Something",
+      name: "Biswasi",
       image:
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "https://google.com",
-      source: "https://google.com",
-      tools: ["nodejs", "expressjs", "graphql"],
+      demo: "https://play.google.com/store/apps/details?id=com.biswasi&hl=uz",
+      tools: ["react native", "redux"],
     },
     {
       type: "featured",
-      name: "Something",
+      name: "AlgoDS.js",
       image:
         "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "https://google.com",
-      source: "https://google.com",
-      tools: ["nodejs", "expressjs", "graphql"],
+      source: "https://github.com/zonayedpca/AlgoDS.js",
+      tools: ["data structure", "algorithm"],
     },
     {
       type: "regular",
-      name: "Something",
+      name: "React Native Welcome",
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "https://google.com",
-      source: "https://google.com",
-      tools: ["nodejs", "expressjs", "graphql"],
+      demo: "https://www.npmjs.com/package/react-native-welcome",
+      source: "https://github.com/zonayedpca/react-native-welcome",
+      tools: ["npm package", "react native"],
     },
     {
       type: "regular",
-      name: "Something",
+      name: "React Web Workers",
       image: "somewhere",
       description:
         "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "https://google.com",
-      source: "https://google.com",
-      tools: ["nodejs", "expressjs", "graphql"],
+      demo: "https://www.npmjs.com/package/react-web-workers",
+      source: "https://github.com/zonayedpca/react-web-workers",
+      tools: ["npm package", "react"],
     },
     {
       type: "regular",
-      name: "Something",
+      name: "React Poll",
       image: "somewhere",
-      description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
-      demo: "https://google.com",
-      source: "https://google.com",
-      tools: ["nodejs", "expressjs", "graphql"],
+      description: "A simple fake poll app which remembers polls and",
+      demo: "https://zonayedpca.github.io/react-fake-poll/",
+      source: "https://github.com/zonayedpca/react-fake-poll",
+      tools: ["react", "react router"],
     },
   ],
 }

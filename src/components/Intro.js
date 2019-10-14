@@ -21,7 +21,7 @@ const Intro = () => {
             </ul>
             <div className="action">
               <Button
-                link="https://zonayed.me"
+                link="https://github.com/zonayedpca/zonayed.me/raw/master/src/data/file/MyResume.pdf"
                 target="__blank"
                 bgColor="#00cf5d"
                 title="Get Resume"

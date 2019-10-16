@@ -17,6 +17,7 @@ const Header = () => {
       const curScrollPosition = window.pageYOffset
       const difference = prevScrollPosition - curScrollPosition
       const { current } = headerEl
+      setMobileNav(false)
       if (curScrollPosition > 100) {
         current.classList.add("compaq")
       } else {

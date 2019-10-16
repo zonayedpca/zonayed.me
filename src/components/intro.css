@@ -66,6 +66,7 @@
 @media only screen and (max-width: 768px) {
   .intro-area {
     flex-direction: column-reverse;
+    justify-content: center;
   }
 
   .intro {

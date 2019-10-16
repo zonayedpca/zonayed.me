@@ -3,10 +3,9 @@ export const portfolios = {
     {
       type: "featured",
       name: "DevSonket",
-      image:
-        "https://repository-images.githubusercontent.com/146095243/8ddf6680-ede6-11e9-93a2-508721b67761",
+      image: require("./image/devsonket.jpg"),
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "A Collection of Bengali Cheatsheets for the developers, completely open-source",
       demo: "https://devsonket.github.io",
       source: "https://github.com/devsonket/devsonket.github.io",
       tools: ["gatsby", "json", "travis ci"],
@@ -14,10 +13,9 @@ export const portfolios = {
     {
       type: "featured",
       name: "js.zonayed.me",
-      image:
-        "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
+      image: require("./image/js.zonayed.me.png"),
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "Learn Practical use case of JavaScript in your everyday life, entirely in Bengali",
       demo: "https://zonayed.js.org",
       source: "https://github.com/zonayedpca/js.zonayed.me",
       tools: ["gatsby", "utterances", "travis ci"],
@@ -25,10 +23,9 @@ export const portfolios = {
     {
       type: "featured",
       name: "react.zonayed.me",
-      image:
-        "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
+      image: require("./image/react.zonayed.me.jpg"),
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "Learn React JS in simple language, from basics to advance, entirely in Bengali",
       demo: "https://react.zonayed.me",
       source: "https://github.com/zonayedpca/react.zonayed.me",
       tools: ["react", "wp-rest", "travis ci"],
@@ -36,9 +33,8 @@ export const portfolios = {
     {
       type: "regular",
       name: "Phonebook",
-      image: "somewhere",
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "A CRUD Application to store your contact phone numbers, everything at one place",
       demo: "https://phonebookpca.netlify.com/",
       source: "https://github.com/zonayedpca/nodeMySQLPhonebook",
       tools: ["express", "mysql", "react"],
@@ -46,9 +42,8 @@ export const portfolios = {
     {
       type: "regular",
       name: "Holy Quran",
-      image: "somewhere",
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "Read the Holy Quran with English Transaltion. Simple, basic and clean",
       demo: "https://zonayedpca.github.io/HolyQuranReact/",
       source: "https://github.com/zonayedpca/HolyQuranReact",
       tools: ["react", "redux"],
@@ -56,9 +51,8 @@ export const portfolios = {
     {
       type: "regular",
       name: "To-do App",
-      image: "somewhere",
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "Just another interactive, nice, beautiful and small to-do application. Does everything!",
       demo: "https://todoreacthooks.netlify.com/",
       source: "https://github.com/zonayedpca/todo-react-hooks",
       tools: ["react", "react hooks"],
@@ -66,9 +60,8 @@ export const portfolios = {
     {
       type: "regular",
       name: "Micro Blog",
-      image: "somewhere",
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "Entirely works on the client-side, behaves like actual micro blog, everything handled by client",
       demo: "https://zonayedpca.github.io/react-micro-blog/",
       source: "https://github.com/zonayedpca/react-micro-blog",
       tools: ["react", "react router"],
@@ -76,9 +69,8 @@ export const portfolios = {
     {
       type: "regular",
       name: "Mini Blog",
-      image: "somewhere",
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "Entirely works on the client-side, behaves like actual blog, can even make posts, bookmarks",
       demo: "https://zonayedpca.github.io/react-mini-blog/",
       source: "https://github.com/zonayedpca/react-mini-blog",
       tools: ["react", "react router", "draft js"],
@@ -86,9 +78,8 @@ export const portfolios = {
     {
       type: "regular",
       name: "PWA Blog",
-      image: "somewhere",
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "A Simple blog powered by WP-Rest API and React, Progressive Web App supported",
       demo: "https://zonayedjsv1.netlify.com",
       source: "https://github.com/zonayedpca/old.js.zonayed.me",
       tools: ["react", "pwa"],
@@ -98,10 +89,9 @@ export const portfolios = {
     {
       type: "featured",
       name: "DevTop",
-      image:
-        "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
+      image: require("./image/devtop.jpg"),
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "Cross-platform desktop tool for the developers, does some useful job and make life easy",
       demo: "https://zonayedpca.github.io/DevTop",
       source: "https://github.com/zonayedpca/DevTop",
       tools: ["electron", "react"],
@@ -109,29 +99,26 @@ export const portfolios = {
     {
       type: "featured",
       name: "Biswasi",
-      image:
-        "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
+      image: require("./image/biswasi.jpg"),
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "Cross-platform Mobile app for the Muslim people to remind them about their prayer",
       demo: "https://play.google.com/store/apps/details?id=com.biswasi&hl=uz",
       tools: ["react native", "redux"],
     },
     {
       type: "featured",
       name: "AlgoDS.js",
-      image:
-        "https://repository-images.githubusercontent.com/207064451/642d9680-dca3-11e9-8494-69ab89ac8f31",
+      image: require("./image/algods.jpg"),
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "A Collection of most used algorithms and data structures implemented using JavaScript",
       source: "https://github.com/zonayedpca/AlgoDS.js",
       tools: ["data structure", "algorithm"],
     },
     {
       type: "regular",
       name: "React Native Welcome",
-      image: "somewhere",
       description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+        "A helper package for React Native to welcome user with beautiful and interactive UI",
       demo: "https://www.npmjs.com/package/react-native-welcome",
       source: "https://github.com/zonayedpca/react-native-welcome",
       tools: ["npm package", "react native"],
@@ -139,9 +126,7 @@ export const portfolios = {
     {
       type: "regular",
       name: "React Web Workers",
-      image: "somewhere",
-      description:
-        "A Liitle bit decrip from soemhw someday so that you ca get it little bit anyway",
+      description: "A Small helper package for React to work with web workers",
       demo: "https://www.npmjs.com/package/react-web-workers",
       source: "https://github.com/zonayedpca/react-web-workers",
       tools: ["npm package", "react"],
@@ -149,8 +134,8 @@ export const portfolios = {
     {
       type: "regular",
       name: "React Poll",
-      image: "somewhere",
-      description: "A simple fake poll app which remembers polls and",
+      description:
+        "Entirely works on client-side, behave like actual poll application",
       demo: "https://zonayedpca.github.io/react-fake-poll/",
       source: "https://github.com/zonayedpca/react-fake-poll",
       tools: ["react", "react router"],

@@ -93,7 +93,7 @@
   height: 100%;
   opacity: 1;
   background: #1d293a;
-  mix-blend-mode: hue;
+  mix-blend-mode: color;
   transition: 0.5s all;
 }
 

@@ -14,8 +14,8 @@ module.exports = {
         name: `zonayed.me`,
         short_name: `zonayed.me`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#111a28`,
+        theme_color: `#1d293a`,
         display: `minimal-ui`,
         icon: `src/assets/image/favicon.png`, // This path is relative to the root of the site.
       },

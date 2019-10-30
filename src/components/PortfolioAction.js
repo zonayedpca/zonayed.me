@@ -21,7 +21,6 @@ const PortfolioAction = () => {
   }
   const handleClick = e => {
     e.preventDefault()
-    console.log("click")
     clearTimeout()
     setTitle("Showing More...")
     setTimeout(() => {}, 1000)
@@ -29,6 +28,8 @@ const PortfolioAction = () => {
   return (
     <div className="portfolio-action">
       <Button
+        target="__blank"
+        link="https://github.com/zonayedpca"
         onMouseOver={handleMouseOver}
         onMouseOut={handleOnMouseOut}
         onClick={handleClick}

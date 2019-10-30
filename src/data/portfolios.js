@@ -6,7 +6,7 @@ export const portfolios = {
       image: require("./image/devsonket.jpg"),
       description:
         "A Collection of Bengali Cheatsheets for the developers, completely open-source",
-      demo: "https://devsonket.github.io",
+      demo: "https://devsonket.com",
       source: "https://github.com/devsonket/devsonket.github.io",
       tools: ["gatsby", "json", "travis ci"],
     },

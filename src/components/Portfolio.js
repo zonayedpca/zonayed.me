@@ -6,6 +6,7 @@ import { Container } from "./common"
 import { portfolios } from "../data"
 
 import "./portfolio.css"
+import PortfolioAction from "./PortfolioAction"
 
 const Portfolio = () => {
   const portfoliosName = Object.keys(portfolios)
@@ -135,6 +136,7 @@ const Portfolio = () => {
               </div>
             ))}
           </div>
+          <PortfolioAction />
         </div>
       </Container>
     </div>

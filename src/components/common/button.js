@@ -7,6 +7,8 @@ const Button = ({
   link,
   target,
   clickEvent,
+  onMouseOver,
+  onMouseOut,
   color,
   bgColor,
   borderColor,
@@ -39,6 +41,8 @@ const Button = ({
       }}
       target={target}
       onClick={clickEvent && handleClick}
+      onMouseOver={onMouseOver}
+      onMouseOut={onMouseOut}
       rel={target ? "noopener noreferrer" : ""}
       className="btn"
       href={link}

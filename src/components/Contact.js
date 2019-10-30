@@ -43,13 +43,6 @@ const Contact = () => {
                 </p>
               </li>
               <li>
-                <h5>Phone</h5>
-                <p>
-                  +8801814274346 <span>(Bangladesh)</span> / +917347075818{" "}
-                  <span>(India)</span>
-                </p>
-              </li>
-              <li>
                 <h5>Social</h5>
                 <p>
                   Facebook/Twitter - @zonayedpca <span>(Slow response)</span>

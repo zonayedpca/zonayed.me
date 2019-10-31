@@ -2,15 +2,15 @@
 
 This is my personal portfolio website
 
-1.  **Start developing.**
+1.  **Start dev server.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into the site’s directory and start it up.
 
     ```shell
     cd zonayed.me/
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+1.  **Open the source code and start observing!**
 
-    Your site is now running at `http://localhost:8000`!
+    The site is now running at `http://localhost:8000`!

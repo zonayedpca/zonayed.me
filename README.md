@@ -11,6 +11,6 @@ This is my personal portfolio website
     gatsby develop
     ```
 
-1.  **Open the source code and start observing!**
+2.  **Open the source code and start observing!**
 
     The site is now running at `http://localhost:8000`!

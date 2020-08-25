@@ -24,7 +24,6 @@ export const skills = {
     { name: "JavaScript", percent: 90 },
     { name: "C", percent: 90 },
     { name: "C++", percent: 75 },
-    { name: "PHP", percent: 50 },
     { name: "Python", percent: 50 },
     { name: "Java", percent: 50 },
   ],

@@ -2,6 +2,15 @@ export const portfolios = {
   Web: [
     {
       type: "featured",
+      name: "Gradienta",
+      image: require("./image/gradienta.jpg"),
+      description:
+        "A Collection of free Multicolor CSS, JPG, PNG, SVG Gradients with a Gradienta Editor",
+      demo: "https://gradienta.io",
+      tools: ["gatsby", "netlify", "ga", "forestry"],
+    },
+    {
+      type: "featured",
       name: "DevSonket",
       image: require("./image/devsonket.jpg"),
       description:
@@ -19,16 +28,6 @@ export const portfolios = {
       demo: "https://zonayed.js.org",
       source: "https://github.com/zonayedpca/js.zonayed.me",
       tools: ["gatsby", "utterances", "travis ci"],
-    },
-    {
-      type: "featured",
-      name: "react.zonayed.me",
-      image: require("./image/react.zonayed.me.jpg"),
-      description:
-        "Learn React JS in simple language, from basics to advance, entirely in Bengali",
-      demo: "https://react.zonayed.me",
-      source: "https://github.com/zonayedpca/react.zonayed.me",
-      tools: ["react", "wp-rest", "travis ci"],
     },
     {
       type: "regular",
@@ -102,7 +101,7 @@ export const portfolios = {
       image: require("./image/biswasi.jpg"),
       description:
         "Cross-platform Mobile app for the Muslim people to remind them about their prayer",
-      demo: "https://play.google.com/store/apps/details?id=com.biswasi&hl=uz",
+      demo: "https://play.google.com/store/apps/details?id=com.biswasi",
       tools: ["react native", "redux"],
     },
     {

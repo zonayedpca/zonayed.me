@@ -12,11 +12,9 @@ const Contact = () => {
         <div className="contact">
           <div className="contact-status">
             <p>
-              Although I am currently studying for my bachelor's degree I will
-              be free from January 2020. And I am interested in working with any
-              company from January 2020 that thinks my skill will be helpful for
-              them. If you are looking for someone like me, please let me know.
-              Or you can just 'say hi' to me.
+              I am interested in working with any company that thinks my skill
+              will be helpful for them. If you are looking for someone like me,
+              please let me know. Or you can just 'say hi' to me.
             </p>
             <div>
               <Button

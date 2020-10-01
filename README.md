@@ -2,15 +2,7 @@
 
 This is my personal portfolio website
 
-1.  **Start dev server.**
+# PortFolio_Website
+Complete Portfolio Website with Bootstrap - HTML/CSS In this project, we are going to learn and build how to create a complete portfolio website with bootstrap using HTML and CSS. We will understand everything from scratch.
 
-    Navigate into the site’s directory and start it up.
-
-    ```shell
-    cd zonayed.me/
-    gatsby develop
-    ```
-
-2.  **Open the source code and start observing!**
-
-    The site is now running at `http://localhost:8000`!
+# To execute this project just open index.html file in the browser.

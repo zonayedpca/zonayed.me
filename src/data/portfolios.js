@@ -25,7 +25,7 @@ export const portfolios = {
       image: require("./image/js.zonayed.me.png"),
       description:
         "Learn Practical use case of JavaScript in your everyday life, entirely in Bengali",
-      demo: "https://zonayed.js.org",
+      demo: "https://js.zonayed.me",
       source: "https://github.com/zonayedpca/js.zonayed.me",
       tools: ["gatsby", "utterances", "travis ci"],
     },
